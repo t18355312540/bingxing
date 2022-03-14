@@ -1,0 +1,111 @@
+121 [1404] INFO perfrun.launcher <> - Launcher main begin
+128 [1404] INFO perfrun.launcher <> - MessageCatalogInit finished
+128 [1404] INFO perfrun.launcher <> - Launcher instance created
+128 [1404] INFO perfrun.launcher <> - argc = 7; cmdline = E:\VTune\vtune\2022.2.0\bin64\amplxe-runss.exe --ui-output-format xml --ui-output-fd 1408 --option-file C:\Users\Administrator\Desktop\bingxing\homework2\vtune\sum\r000ue\config\runsa.options 
+158 [1404] INFO perfrun.launcher <> - New signal handler callback was added
+232 [1404] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+240 [1404] INFO perfrun.launcher <> - create file finder object
+240 [1404] INFO perfrun.launcher <> - create a result directory: pattern = C:\Users\Administrator\Desktop\bingxing\homework2\vtune\sum\r000ue pid = 4294967295
+244 [1404] INFO perfrun.launcher <> - create data directory = C:\Users\Administrator\Desktop\bingxing\homework2\vtune\sum\r000ue\data.0
+245 [1404] INFO perfrun.launcher <> - Creating the master collection flag
+250 [1404] INFO perfrun.launcher <> - Done creating the master collection flag
+250 [6056] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+251 [6056] INFO perfrun.sdk <> - Allocating TMU :C:\Users\Administrator\Desktop\bingxing\homework2\vtune\sum\r000ue\data.0\systemcollector-1196-DESKTOP-OPR46JC.sc
+251 [6056] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+254 [6056] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+254 [6056] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+254 [6056] INFO perfrun.launcher <> - plugin [etw.kernel] was disabled because it doesn't support the given collection type.
+255 [6056] INFO perfrun.launcher <> - plugin [etw.dx] was disabled because it doesn't support the given collection type.
+255 [6056] INFO perfrun.launcher <> - plugin [etw.wsa] was disabled because it doesn't support the given collection type.
+255 [6056] INFO perfrun.mrte <> - system-wide mode is 0
+255 [6056] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+317 [6056] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=C:\Users\Administrator\Desktop\bingxing\homework2\vtune\sum\r000ue\data.0
+317 [6056] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=DESKTOP-OPR46JC
+317 [6056] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:amplxe_samplingmrte_javaprof_1.0
+317 [6056] INFO perfrun.mrte <> - PATH=E:\VTune\vtune\2022.2.0\bin32\runtime;E:\VTune\vtune\2022.2.0\bin64\runtime;D:\Java\jdk1.8.0_241\bin;D:\Java\jdk1.8.0_241\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\Anaconda3;E:\Anaconda3\Library\mingw-w64\bin;E:\Anaconda3\Library\usr\bin;E:\Anaconda3\Library\bin;E:\Anaconda3\Scripts;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\LINGO12\;D:\matlab setting\matlab process\runtime\win64;D:\matlab setting\matlab process\bin;D:\matlab setting\matlab process\polyspace\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;D:\Gitee launch\Git\cmd;D:\texlive\texlive\2020\bin\win32;D:\bin;D:\cmake\bin;D:\MinGW\bin;D:\JDE\bin;E:\UltraEdit;E:\Xshell\;C:\Program Files (x86)\Wolfram Research\WolframScript\;E:\nodejs\;C:\ProgramData\chocolatey\bin;E:\phpstudy_pro\Extensions\MySQL5.7.26\bin;E:\互传\EasyShare\x86\;E:\互传\EasyShare\x64\;E:\bingxing\fix 1\TDM-GCC\bin;E:\WinSCP\;E:\Xshell\Xftp7\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;E:\IntelliJ IDEA 2021.3.2\bin;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;D:\VS code\Microsoft VS Code\bin;D:\nodejs\node_global;D:\Fiddler
+317 [6056] INFO perfrun.mrte <> - COR_ENABLE_PROFILING=1
+317 [6056] INFO perfrun.mrte <> - COR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+317 [6056] INFO perfrun.mrte <> - COMPLUS_ProfAPI_ProfilerCompatibilitySetting=EnableV2Profiler
+317 [6056] INFO perfrun.mrte <> - CORECLR_ENABLE_PROFILING=1
+317 [6056] INFO perfrun.mrte <> - CORECLR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+317 [6056] INFO perfrun.mrte <> - CORECLR_PROFILER_PATH=E:\VTune\vtune\2022.2.0\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+317 [6056] INFO perfrun.mrte <> - INTEL_MRTE_PROFILER_MODE=mixed
+317 [6056] INFO perfrun.mrte <> - Data directory: C:\Users\Administrator\Desktop\bingxing\homework2\vtune\sum\r000ue\data.0
+317 [6056] INFO perfrun.mrte <> - Mrte plugin is initialized
+317 [6056] INFO perfrun.launcher <> - plugin [emon] was disabled because it doesn't support the given collection type.
+317 [6056] INFO perfrun.launcher <> - plugin [cuscol] was disabled because it doesn't support the given collection type.
+317 [6056] INFO perfrun.launcher <> - plugin [stdsrc] was disabled because it doesn't support the given collection type.
+318 [6056] INFO perfrun.sdk <> - runCmd: E:\VTune\vtune\2022.2.0\bin64\sep.exe -dry-run -ec CPU_CLK_UNHALTED.THREAD:sa=1300000,CPU_CLK_UNHALTED.REF_TSC:sample:sa=1300000,INST_RETIRED.ANY:sample:sa=1300000,CPU_CLK_UNHALTED.DISTRIBUTED:sa=1300000,CPU_CLK_UNHALTED.THREAD_P,CYCLE_ACTIVITY.STALLS_MEM_ANY,CYCLE_ACTIVITY.STALLS_TOTAL,EXE_ACTIVITY.1_PORTS_UTIL,EXE_ACTIVITY.2_PORTS_UTIL,EXE_ACTIVITY.BOUND_ON_STORES,FRONTEND_RETIRED.LATENCY_GE_4,IDQ_UOPS_NOT_DELIVERED.CORE,INT_MISC.RECOVERY_CYCLES:cmask=1:e=yes,INT_MISC.UOP_DROPPING,TOPDOWN.BACKEND_BOUND_SLOTS,TOPDOWN.SLOTS,UOPS_RETIRED.SLOTS,BACLEARS.ANY,BR_MISP_RETIRED.ALL_BRANCHES,DSB2MITE_SWITCHES.PENALTY_CYCLES,FRONTEND_RETIRED.ANY_DSB_MISS,FRONTEND_RETIRED.DSB_MISS,FRONTEND_RETIRED.L2_MISS,FRONTEND_RETIRED.LATENCY_GE_16,FRONTEND_RETIRED.LATENCY_GE_2_BUBBLES_GE_1,FRONTEND_RETIRED.STLB_MISS,ICACHE_16B.IFDATA_STALL,ICACHE_64B.IFTAG_STALL,IDQ.DSB_CYCLES_ANY,IDQ.DSB_CYCLES_OK,IDQ.DSB_UOPS,IDQ.MITE_CYCLES_ANY,IDQ.MITE_CYCLES_OK,IDQ.MITE_UOPS,IDQ.MS_SWITCHES,IDQ.MS_UOPS,IDQ_UOPS_NOT_DELIVERED.CYCLES_0_UOPS_DELIV.CORE,ILD_STALL.LCP,INT_MISC.CLEAR_RESTEER_CYCLES,LSD.CYCLES_ACTIVE,LSD.CYCLES_OK,LSD.UOPS,MACHINE_CLEARS.COUNT,CYCLE_ACTIVITY.CYCLES_L1D_MISS,CYCLE_ACTIVITY.CYCLES_MEM_ANY,CYCLE_ACTIVITY.STALLS_L1D_MISS,CYCLE_ACTIVITY.STALLS_L2_MISS,CYCLE_ACTIVITY.STALLS_L3_MISS,DTLB_LOAD_MISSES.STLB_HIT:cmask=1,DTLB_LOAD_MISSES.WALK_ACTIVE,DTLB_STORE_MISSES.STLB_HIT:cmask=1,DTLB_STORE_MISSES.WALK_ACTIVE,L1D_PEND_MISS.FB_FULL,L1D_PEND_MISS.FB_FULL_PERIODS,L1D_PEND_MISS.L2_STALL,L1D_PEND_MISS.PENDING,L2_RQSTS.ALL_RFO,L2_RQSTS.RFO_HIT,LD_BLOCKS.NO_SR,LD_BLOCKS.STORE_FORWARD,LD_BLOCKS_PARTIAL.ADDRESS_ALIAS,MEM_INST_RETIRED.ALL_STORES,MEM_INST_RETIRED.LOCK_LOADS,MEM_INST_RETIRED.SPLIT_LOADS,MEM_INST_RETIRED.SPLIT_STORES,MEM_INST_RETIRED.STLB_MISS_LOADS,MEM_INST_RETIRED.STLB_MISS_STORES,MEM_LOAD_L3_HIT_RETIRED.XSNP_HIT,MEM_LOAD_L3_HIT_RETIRED.XSNP_HITM,MEM_LOAD_L3_HIT_RETIRED.XSNP_MISS,MEM_LOAD_RETIRED.FB_HIT,MEM_LOAD_RETIRED.L1_HIT,MEM_LOAD_RETIRED.L1_MISS,MEM_LOAD_RETIRED.L2_HIT,MEM_LOAD_RETIRED.L3_HIT,MEM_LOAD_RETIRED.L3_MISS,OFFCORE_REQUESTS_OUTSTANDING.ALL_DATA_RD:cmask=4,OFFCORE_REQUESTS_OUTSTANDING.CYCLES_WITH_DATA_RD,OFFCORE_REQUESTS_OUTSTANDING.CYCLES_WITH_DEMAND_RFO,ARITH.DIVIDER_ACTIVE,FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE,FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE,FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE,FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE,FP_ARITH_INST_RETIRED.512B_PACKED_DOUBLE,FP_ARITH_INST_RETIRED.512B_PACKED_SINGLE,FP_ARITH_INST_RETIRED.SCALAR_DOUBLE,FP_ARITH_INST_RETIRED.SCALAR_SINGLE,MISC_RETIRED.PAUSE_INST,RESOURCE_STALLS.SCOREBOARD,UOPS_DECODED.DEC0,UOPS_DECODED.DEC0:cmask=1,UOPS_DISPATCHED.PORT_0,UOPS_DISPATCHED.PORT_1,UOPS_DISPATCHED.PORT_2_3,UOPS_DISPATCHED.PORT_4_9,UOPS_DISPATCHED.PORT_5,UOPS_DISPATCHED.PORT_6,UOPS_DISPATCHED.PORT_7_8,UOPS_EXECUTED.CYCLES_GE_3,UOPS_EXECUTED.THREAD,UOPS_EXECUTED.X87,UOPS_ISSUED.ANY,UOPS_ISSUED.VECTOR_WIDTH_MISMATCH,ASSISTS.ANY,BR_INST_RETIRED.ALL_BRANCHES,INST_RETIRED.NOP,MEM_INST_RETIRED.ANY,OCR.DEMAND_RFO.L3_HIT.SNOOP_HITM,OCR.STREAMING_WR.ANY_RESPONSE -experimental
+325 [6056] INFO perfrun.sdk <> - runCmd started PID 6228
+508 [6056] INFO perfrun.launcher <> - plugin [vtsspp] was disabled because it doesn't support the given collection type.
+508 [6056] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+508 [6056] INFO perfrun.launcher <> - plugin [aoclprofile] was disabled because it doesn't support the given collection type.
+508 [6056] INFO perfrun.tpss <> - initialize tpss controller
+508 [6056] INFO perfrun.launcher <> - plugin [tpss] was disabled because it doesn't support the given collection type.
+508 [6056] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+508 [6056] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+508 [6056] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+508 [6056] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+508 [6056] INFO perfrun.launcher <> - plugin [power] was disabled because it doesn't support the given collection type.
+508 [6056] INFO perfrun.launcher <> - plugin [hwloc] was disabled because it doesn't support the given collection type.
+508 [6056] INFO perfrun.launcher <> - plugin [ipmwatch] was disabled because it doesn't support the given collection type.
+508 [6056] INFO perfrun.launcher <> - plugin [os_counters] was disabled because it doesn't support the given collection type.
+508 [6056] INFO perfrun.launcher <> - plugin [l0_metrics] was disabled because it doesn't support the given collection type.
+508 [1404] INFO perfrun.launcher <> - set environment variable: PATH = E:\VTune\vtune\2022.2.0\bin32\runtime;E:\VTune\vtune\2022.2.0\bin64\runtime;D:\Java\jdk1.8.0_241\bin;D:\Java\jdk1.8.0_241\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\Anaconda3;E:\Anaconda3\Library\mingw-w64\bin;E:\Anaconda3\Library\usr\bin;E:\Anaconda3\Library\bin;E:\Anaconda3\Scripts;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\LINGO12\;D:\matlab setting\matlab process\runtime\win64;D:\matlab setting\matlab process\bin;D:\matlab setting\matlab process\polyspace\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;D:\Gitee launch\Git\cmd;D:\texlive\texlive\2020\bin\win32;D:\bin;D:\cmake\bin;D:\MinGW\bin;D:\JDE\bin;E:\UltraEdit;E:\Xshell\;C:\Program Files (x86)\Wolfram Research\WolframScript\;E:\nodejs\;C:\ProgramData\chocolatey\bin;E:\phpstudy_pro\Extensions\MySQL5.7.26\bin;E:\互传\EasyShare\x86\;E:\互传\EasyShare\x64\;E:\bingxing\fix 1\TDM-GCC\bin;E:\WinSCP\;E:\Xshell\Xftp7\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;E:\IntelliJ IDEA 2021.3.2\bin;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;D:\VS code\Microsoft VS Code\bin;D:\nodejs\node_global;D:\Fiddler
+508 [1404] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY32 = E:\VTune\vtune\2022.2.0\bin32\runtime\ittnotify_collector.dll
+508 [1404] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY64 = E:\VTune\vtune\2022.2.0\bin64\runtime\ittnotify_collector.dll
+508 [1404] INFO perfrun.launcher <> - set environment variable: INTEL_ITTNOTIFY_GROUPS = 
+508 [1404] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER32 = E:\VTune\vtune\2022.2.0\bin32\runtime\ittnotify_collector.dll
+509 [1404] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER64 = E:\VTune\vtune\2022.2.0\bin64\runtime\ittnotify_collector.dll
+509 [1404] INFO perfrun.launcher <> - set environment variable: VS_PROFILER = ittnotify_collector.dll
+509 [1404] INFO perfrun.launcher <> - set environment variable: OMP_TOOL_LIBRARIES = E:\VTune\vtune\2022.2.0\bin32\runtime\ittnotify_collector.dll;E:\VTune\vtune\2022.2.0\bin64\runtime\ittnotify_collector.dll
+509 [1404] INFO perfrun.launcher <> - set environment variable: ENABLE_JITPROFILING = 1
+509 [1404] INFO perfrun.launcher <> - set environment variable: CL_CONFIG_USE_VTUNE = True
+509 [1404] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES = 0
+509 [1404] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES_MODE = 0
+509 [1404] INFO perfrun.launcher <> - set environment variable: OMP_TOOL = disabled
+509 [1404] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = C:\Users\Administrator\Desktop\bingxing\homework2\vtune\sum\r000ue\data.0
+509 [1404] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = DESKTOP-OPR46JC
+509 [1404] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:amplxe_samplingmrte_javaprof_1.0
+509 [1404] INFO perfrun.launcher <> - set environment variable: PATH = E:\VTune\vtune\2022.2.0\bin32\runtime;E:\VTune\vtune\2022.2.0\bin64\runtime;D:\Java\jdk1.8.0_241\bin;D:\Java\jdk1.8.0_241\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\Anaconda3;E:\Anaconda3\Library\mingw-w64\bin;E:\Anaconda3\Library\usr\bin;E:\Anaconda3\Library\bin;E:\Anaconda3\Scripts;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\LINGO12\;D:\matlab setting\matlab process\runtime\win64;D:\matlab setting\matlab process\bin;D:\matlab setting\matlab process\polyspace\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;D:\Gitee launch\Git\cmd;D:\texlive\texlive\2020\bin\win32;D:\bin;D:\cmake\bin;D:\MinGW\bin;D:\JDE\bin;E:\UltraEdit;E:\Xshell\;C:\Program Files (x86)\Wolfram Research\WolframScript\;E:\nodejs\;C:\ProgramData\chocolatey\bin;E:\phpstudy_pro\Extensions\MySQL5.7.26\bin;E:\互传\EasyShare\x86\;E:\互传\EasyShare\x64\;E:\bingxing\fix 1\TDM-GCC\bin;E:\WinSCP\;E:\Xshell\Xftp7\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;E:\IntelliJ IDEA 2021.3.2\bin;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;D:\VS code\Microsoft VS Code\bin;D:\nodejs\node_global;D:\Fiddler
+509 [1404] INFO perfrun.launcher <> - set environment variable: COR_ENABLE_PROFILING = 1
+509 [1404] INFO perfrun.launcher <> - set environment variable: COR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+509 [1404] INFO perfrun.launcher <> - set environment variable: COMPLUS_ProfAPI_ProfilerCompatibilitySetting = EnableV2Profiler
+509 [1404] INFO perfrun.launcher <> - set environment variable: CORECLR_ENABLE_PROFILING = 1
+509 [1404] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+509 [1404] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER_PATH = E:\VTune\vtune\2022.2.0\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+509 [1404] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_PROFILER_MODE = mixed
+509 [1404] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+513 [1404] INFO perfrun.sdk <> - IProcessUtil: the given executable 'C:\Users\Administrator\Desktop\bingxing\homework2\sum_each\Project1\Debug\Project1.exe' is valid.
+513 [1404] INFO perfrun.launcher <> - Launcher: command line to start before modification = C:\Users\Administrator\Desktop\bingxing\homework2\sum_each\Project1\Debug\Project1.exe
+513 [1404] INFO perfrun.launcher <> - Launcher: command line to start after modification = C:\Users\Administrator\Desktop\bingxing\homework2\sum_each\Project1\Debug\Project1.exe
+513 [1404] INFO perfrun.launcher <> - ProcessCreator object was created
+520 [1404] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+522 [6056] INFO perfrun.itt <> - start itt controller for pid #3900
+523 [6056] INFO perfrun.sdk <> - runCmd: E:\VTune\vtune\2022.2.0\bin64\sep.exe -start -experimental -uem timer=10 -em factor=5 -p-state trigger=CPU_CLK_UNHALTED.REF_TSC -out C:\Users\Administrator\Desktop\bingxing\homework2\vtune\sum\r000ue\data.0\sep17a8.20220314T231228.435409 -ec INST_RETIRED.ANY:sample:sa=1300000,CPU_CLK_UNHALTED.THREAD:sa=1300000,CPU_CLK_UNHALTED.REF_TSC:sample:sa=1300000,TOPDOWN.SLOTS,MISC_RETIRED.PAUSE_INST,BACLEARS.ANY,DSB2MITE_SWITCHES.PENALTY_CYCLES,ICACHE_16B.IFDATA_STALL,CPU_CLK_UNHALTED.DISTRIBUTED:sa=1300000,CPU_CLK_UNHALTED.THREAD_P,CYCLE_ACTIVITY.STALLS_MEM_ANY,CYCLE_ACTIVITY.STALLS_TOTAL,UOPS_DECODED.DEC0,ICACHE_64B.IFTAG_STALL,IDQ.DSB_CYCLES_ANY,IDQ.DSB_CYCLES_OK,EXE_ACTIVITY.1_PORTS_UTIL,EXE_ACTIVITY.2_PORTS_UTIL,EXE_ACTIVITY.BOUND_ON_STORES,FRONTEND_RETIRED.LATENCY_GE_4,UOPS_DECODED.DEC0:cmask=1,IDQ.DSB_UOPS,IDQ.MITE_CYCLES_ANY,IDQ.MITE_CYCLES_OK,IDQ_UOPS_NOT_DELIVERED.CORE,INT_MISC.RECOVERY_CYCLES:cmask=1:e=yes,INT_MISC.UOP_DROPPING,TOPDOWN.BACKEND_BOUND_SLOTS,IDQ.MITE_UOPS,IDQ.MS_SWITCHES,IDQ.MS_UOPS,ILD_STALL.LCP,UOPS_RETIRED.SLOTS,BR_MISP_RETIRED.ALL_BRANCHES,FRONTEND_RETIRED.ANY_DSB_MISS,LSD.CYCLES_ACTIVE,LSD.CYCLES_OK,LSD.UOPS,CYCLE_ACTIVITY.CYCLES_L1D_MISS,FRONTEND_RETIRED.DSB_MISS,CYCLE_ACTIVITY.STALLS_L1D_MISS,CYCLE_ACTIVITY.STALLS_L2_MISS,CYCLE_ACTIVITY.STALLS_L3_MISS,DTLB_LOAD_MISSES.STLB_HIT:cmask=1,FRONTEND_RETIRED.L2_MISS,DTLB_LOAD_MISSES.WALK_ACTIVE,DTLB_STORE_MISSES.STLB_HIT:cmask=1,DTLB_STORE_MISSES.WALK_ACTIVE,L1D_PEND_MISS.FB_FULL,FRONTEND_RETIRED.LATENCY_GE_16,L1D_PEND_MISS.FB_FULL_PERIODS,L1D_PEND_MISS.L2_STALL,L1D_PEND_MISS.PENDING,L2_RQSTS.ALL_RFO,FRONTEND_RETIRED.LATENCY_GE_2_BUBBLES_GE_1,L2_RQSTS.RFO_HIT,LD_BLOCKS.NO_SR,LD_BLOCKS.STORE_FORWARD,LD_BLOCKS_PARTIAL.ADDRESS_ALIAS,FRONTEND_RETIRED.STLB_MISS,IDQ_UOPS_NOT_DELIVERED.CYCLES_0_UOPS_DELIV.CORE,INT_MISC.CLEAR_RESTEER_CYCLES,MACHINE_CLEARS.COUNT,MEM_INST_RETIRED.ALL_STORES,MEM_INST_RETIRED.LOCK_LOADS,MEM_INST_RETIRED.SPLIT_LOADS,MEM_INST_RETIRED.SPLIT_STORES,CYCLE_ACTIVITY.CYCLES_MEM_ANY,ARITH.DIVIDER_ACTIVE,FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE,FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE,MEM_INST_RETIRED.STLB_MISS_LOADS,MEM_INST_RETIRED.STLB_MISS_STORES,MEM_LOAD_L3_HIT_RETIRED.XSNP_HIT,MEM_LOAD_L3_HIT_RETIRED.XSNP_HITM,FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE,FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE,FP_ARITH_INST_RETIRED.512B_PACKED_DOUBLE,FP_ARITH_INST_RETIRED.512B_PACKED_SINGLE,MEM_LOAD_L3_HIT_RETIRED.XSNP_MISS,MEM_LOAD_RETIRED.FB_HIT,MEM_LOAD_RETIRED.L1_HIT,MEM_LOAD_RETIRED.L1_MISS,FP_ARITH_INST_RETIRED.SCALAR_DOUBLE,FP_ARITH_INST_RETIRED.SCALAR_SINGLE,RESOURCE_STALLS.SCOREBOARD,UOPS_DISPATCHED.PORT_0,MEM_LOAD_RETIRED.L2_HIT,MEM_LOAD_RETIRED.L3_HIT,MEM_LOAD_RETIRED.L3_MISS,OFFCORE_REQUESTS_OUTSTANDING.ALL_DATA_RD:cmask=4,UOPS_DISPATCHED.PORT_1,UOPS_DISPATCHED.PORT_2_3,UOPS_DISPATCHED.PORT_4_9,UOPS_DISPATCHED.PORT_5,OFFCORE_REQUESTS_OUTSTANDING.CYCLES_WITH_DATA_RD,OFFCORE_REQUESTS_OUTSTANDING.CYCLES_WITH_DEMAND_RFO,MEM_INST_RETIRED.ANY,OCR.DEMAND_RFO.L3_HIT.SNOOP_HITM,UOPS_DISPATCHED.PORT_6,UOPS_DISPATCHED.PORT_7_8,UOPS_EXECUTED.CYCLES_GE_3,UOPS_EXECUTED.THREAD,OCR.STREAMING_WR.ANY_RESPONSE,UOPS_EXECUTED.X87,UOPS_ISSUED.ANY,UOPS_ISSUED.VECTOR_WIDTH_MISMATCH,ASSISTS.ANY,BR_INST_RETIRED.ALL_BRANCHES,INST_RETIRED.NOP, -d 0 -uem factor=10
+528 [6056] INFO perfrun.sdk <> - runCmd started PID 2728
+1034 [1404] INFO perfrun.launcher <> - Launcher: all plugins were started
+1034 [1404] INFO perfrun.launcher <> - DirectoryMonitor object was created
+1035 [1404] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+1035 [1404] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+1035 [1404] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+1036 [1404] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+1044 [1404] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+3555 [1404] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+3655 [6056] INFO perfrun.itt <> - detach itt controller
+3655 [6056] INFO perfrun.itt <> - detach itt controller done
+3656 [6056] INFO perfrun.sdk <> - runCmd: E:\VTune\vtune\2022.2.0\bin64\sep.exe -stop
+3660 [6056] INFO perfrun.sdk <> - runCmd started PID 13220
+4493 [6056] INFO perfrun.sepdk <> - Sampling successfully stopped.
+
+4493 [6056] INFO perfrun.sepdk <> - Waiting for main SEP process (2728) to finish...
+4493 [6056] INFO perfrun.sepdk <> - Main SEP process finished
+4493 [6056] INFO perfrun.sdk <> - De-allocating TMU: C:\Users\Administrator\Desktop\bingxing\homework2\vtune\sum\r000ue\data.0\systemcollector-1196-DESKTOP-OPR46JC.sc
+4518 [6056] INFO perfrun.system <> - closed the system trace file: C:\Users\Administrator\Desktop\bingxing\homework2\vtune\sum\r000ue\data.0\systemcollector-1196-DESKTOP-OPR46JC.sc
+4519 [1404] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+4519 [1404] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+4519 [1404] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+4519 [1404] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+4519 [1404] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: C:\BB\INNLphep2w6r\b\tmpraubik\vcs\perfrun1\launcher\src\command_handler.cpp:226
+4520 [1404] INFO perfrun.launcher <> - Application exit code: 0
+4520 [1404] INFO perfrun.launcher <> - Exit code: 0

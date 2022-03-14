@@ -1,0 +1,113 @@
+104 [11404] INFO perfrun.launcher <> - Launcher main begin
+111 [11404] INFO perfrun.launcher <> - MessageCatalogInit finished
+111 [11404] INFO perfrun.launcher <> - Launcher instance created
+111 [11404] INFO perfrun.launcher <> - argc = 7; cmdline = E:\VTune\vtune\2022.2.0\bin64\amplxe-runss.exe --ui-output-format xml --ui-output-fd 1108 --option-file C:\Users\Administrator\Desktop\bingxing\homework2\vtune\test\r002hs3\config\runsa.options 
+130 [11404] INFO perfrun.launcher <> - New signal handler callback was added
+219 [11404] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+219 [11404] INFO perfrun.launcher <> - create file finder object
+219 [11404] INFO perfrun.launcher <> - create a result directory: pattern = C:\Users\Administrator\Desktop\bingxing\homework2\vtune\test\r002hs3 pid = 4294967295
+224 [11404] INFO perfrun.launcher <> - create data directory = C:\Users\Administrator\Desktop\bingxing\homework2\vtune\test\r002hs3\data.0
+225 [11404] INFO perfrun.launcher <> - Creating the master collection flag
+234 [11404] INFO perfrun.launcher <> - Done creating the master collection flag
+234 [264] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+234 [264] INFO perfrun.sdk <> - Allocating TMU :C:\Users\Administrator\Desktop\bingxing\homework2\vtune\test\r002hs3\data.0\systemcollector-3332-DESKTOP-OPR46JC.sc
+235 [264] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+238 [264] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+238 [264] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+238 [264] INFO perfrun.launcher <> - plugin [etw.kernel] was disabled because it doesn't support the given collection type.
+238 [264] INFO perfrun.launcher <> - plugin [etw.dx] was disabled because it doesn't support the given collection type.
+238 [264] INFO perfrun.launcher <> - plugin [etw.wsa] was disabled because it doesn't support the given collection type.
+238 [264] INFO perfrun.mrte <> - system-wide mode is 0
+239 [264] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+261 [264] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=C:\Users\Administrator\Desktop\bingxing\homework2\vtune\test\r002hs3\data.0
+261 [264] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=DESKTOP-OPR46JC
+261 [264] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:amplxe_samplingmrte_javaprof_1.0
+261 [264] INFO perfrun.mrte <> - PATH=E:\VTune\vtune\2022.2.0\bin32\runtime;E:\VTune\vtune\2022.2.0\bin64\runtime;D:\Java\jdk1.8.0_241\bin;D:\Java\jdk1.8.0_241\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\Anaconda3;E:\Anaconda3\Library\mingw-w64\bin;E:\Anaconda3\Library\usr\bin;E:\Anaconda3\Library\bin;E:\Anaconda3\Scripts;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\LINGO12\;D:\matlab setting\matlab process\runtime\win64;D:\matlab setting\matlab process\bin;D:\matlab setting\matlab process\polyspace\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;D:\Gitee launch\Git\cmd;D:\texlive\texlive\2020\bin\win32;D:\bin;D:\cmake\bin;D:\MinGW\bin;D:\JDE\bin;E:\UltraEdit;E:\Xshell\;C:\Program Files (x86)\Wolfram Research\WolframScript\;E:\nodejs\;C:\ProgramData\chocolatey\bin;E:\phpstudy_pro\Extensions\MySQL5.7.26\bin;E:\互传\EasyShare\x86\;E:\互传\EasyShare\x64\;E:\bingxing\fix 1\TDM-GCC\bin;E:\WinSCP\;E:\Xshell\Xftp7\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;E:\IntelliJ IDEA 2021.3.2\bin;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;D:\VS code\Microsoft VS Code\bin;D:\nodejs\node_global;D:\Fiddler
+261 [264] INFO perfrun.mrte <> - COR_ENABLE_PROFILING=1
+261 [264] INFO perfrun.mrte <> - COR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+261 [264] INFO perfrun.mrte <> - COMPLUS_ProfAPI_ProfilerCompatibilitySetting=EnableV2Profiler
+261 [264] INFO perfrun.mrte <> - CORECLR_ENABLE_PROFILING=1
+261 [264] INFO perfrun.mrte <> - CORECLR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+261 [264] INFO perfrun.mrte <> - CORECLR_PROFILER_PATH=E:\VTune\vtune\2022.2.0\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+262 [264] INFO perfrun.mrte <> - INTEL_MRTE_PROFILER_MODE=mixed
+262 [264] INFO perfrun.mrte <> - Data directory: C:\Users\Administrator\Desktop\bingxing\homework2\vtune\test\r002hs3\data.0
+262 [264] INFO perfrun.mrte <> - Mrte plugin is initialized
+262 [264] INFO perfrun.launcher <> - plugin [emon] was disabled because it doesn't support the given collection type.
+262 [264] INFO perfrun.launcher <> - plugin [cuscol] was disabled because it doesn't support the given collection type.
+262 [264] INFO perfrun.launcher <> - plugin [stdsrc] was disabled because it doesn't support the given collection type.
+263 [264] INFO perfrun.sdk <> - runCmd: E:\VTune\vtune\2022.2.0\bin64\sep.exe -dry-run -ec MEM_LOAD_RETIRED.L1_HIT:sa=1000003:precise=yes,MEM_LOAD_RETIRED.L1_MISS:sa=200003:precise=yes,MEM_LOAD_RETIRED.L2_HIT:sa=200003:precise=yes,MEM_LOAD_RETIRED.L2_MISS:sa=100021:precise=yes,MEM_LOAD_RETIRED.L3_HIT:sa=100021:precise=yes,MEM_LOAD_RETIRED.L3_MISS:sa=50021:precise=yes -experimental
+270 [264] INFO perfrun.sdk <> - runCmd started PID 14780
+381 [264] ERROR perfrun.sepdk <> - Can not configure event - CPU_CLK_UNHALTED.REF_TSC, at file: C:\BB\INNLphep2w6r\b\tmpraubik\vcs\perfrun1\plugins\sepdk\src\sepdk_helper.cpp:1065
+383 [264] ERROR perfrun.sepdk <> - Can not configure event - CPU_CLK_UNHALTED.REF_TSC, at file: C:\BB\INNLphep2w6r\b\tmpraubik\vcs\perfrun1\plugins\sepdk\src\sepdk_helper.cpp:1065
+383 [264] INFO perfrun.launcher <> - plugin [vtsspp] was disabled because it doesn't support the given collection type.
+383 [264] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+383 [264] INFO perfrun.launcher <> - plugin [aoclprofile] was disabled because it doesn't support the given collection type.
+383 [264] INFO perfrun.tpss <> - initialize tpss controller
+383 [264] INFO perfrun.launcher <> - plugin [tpss] was disabled because it doesn't support the given collection type.
+383 [264] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+383 [264] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+383 [264] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+383 [264] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+383 [264] INFO perfrun.launcher <> - plugin [power] was disabled because it doesn't support the given collection type.
+383 [264] INFO perfrun.launcher <> - plugin [hwloc] was disabled because it doesn't support the given collection type.
+383 [264] INFO perfrun.launcher <> - plugin [ipmwatch] was disabled because it doesn't support the given collection type.
+383 [264] INFO perfrun.launcher <> - plugin [os_counters] was disabled because it doesn't support the given collection type.
+383 [264] INFO perfrun.launcher <> - plugin [l0_metrics] was disabled because it doesn't support the given collection type.
+383 [11404] INFO perfrun.launcher <> - set environment variable: PATH = E:\VTune\vtune\2022.2.0\bin32\runtime;E:\VTune\vtune\2022.2.0\bin64\runtime;D:\Java\jdk1.8.0_241\bin;D:\Java\jdk1.8.0_241\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\Anaconda3;E:\Anaconda3\Library\mingw-w64\bin;E:\Anaconda3\Library\usr\bin;E:\Anaconda3\Library\bin;E:\Anaconda3\Scripts;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\LINGO12\;D:\matlab setting\matlab process\runtime\win64;D:\matlab setting\matlab process\bin;D:\matlab setting\matlab process\polyspace\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;D:\Gitee launch\Git\cmd;D:\texlive\texlive\2020\bin\win32;D:\bin;D:\cmake\bin;D:\MinGW\bin;D:\JDE\bin;E:\UltraEdit;E:\Xshell\;C:\Program Files (x86)\Wolfram Research\WolframScript\;E:\nodejs\;C:\ProgramData\chocolatey\bin;E:\phpstudy_pro\Extensions\MySQL5.7.26\bin;E:\互传\EasyShare\x86\;E:\互传\EasyShare\x64\;E:\bingxing\fix 1\TDM-GCC\bin;E:\WinSCP\;E:\Xshell\Xftp7\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;E:\IntelliJ IDEA 2021.3.2\bin;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;D:\VS code\Microsoft VS Code\bin;D:\nodejs\node_global;D:\Fiddler
+383 [11404] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY32 = E:\VTune\vtune\2022.2.0\bin32\runtime\ittnotify_collector.dll
+384 [11404] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY64 = E:\VTune\vtune\2022.2.0\bin64\runtime\ittnotify_collector.dll
+384 [11404] INFO perfrun.launcher <> - set environment variable: INTEL_ITTNOTIFY_GROUPS = 
+384 [11404] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER32 = E:\VTune\vtune\2022.2.0\bin32\runtime\ittnotify_collector.dll
+384 [11404] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER64 = E:\VTune\vtune\2022.2.0\bin64\runtime\ittnotify_collector.dll
+384 [11404] INFO perfrun.launcher <> - set environment variable: VS_PROFILER = ittnotify_collector.dll
+384 [11404] INFO perfrun.launcher <> - set environment variable: OMP_TOOL_LIBRARIES = E:\VTune\vtune\2022.2.0\bin32\runtime\ittnotify_collector.dll;E:\VTune\vtune\2022.2.0\bin64\runtime\ittnotify_collector.dll
+384 [11404] INFO perfrun.launcher <> - set environment variable: ENABLE_JITPROFILING = 1
+384 [11404] INFO perfrun.launcher <> - set environment variable: CL_CONFIG_USE_VTUNE = True
+384 [11404] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES = 0
+384 [11404] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES_MODE = 0
+384 [11404] INFO perfrun.launcher <> - set environment variable: OMP_TOOL = disabled
+384 [11404] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = C:\Users\Administrator\Desktop\bingxing\homework2\vtune\test\r002hs3\data.0
+384 [11404] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = DESKTOP-OPR46JC
+384 [11404] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:amplxe_samplingmrte_javaprof_1.0
+384 [11404] INFO perfrun.launcher <> - set environment variable: PATH = E:\VTune\vtune\2022.2.0\bin32\runtime;E:\VTune\vtune\2022.2.0\bin64\runtime;D:\Java\jdk1.8.0_241\bin;D:\Java\jdk1.8.0_241\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\Anaconda3;E:\Anaconda3\Library\mingw-w64\bin;E:\Anaconda3\Library\usr\bin;E:\Anaconda3\Library\bin;E:\Anaconda3\Scripts;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\LINGO12\;D:\matlab setting\matlab process\runtime\win64;D:\matlab setting\matlab process\bin;D:\matlab setting\matlab process\polyspace\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;D:\Gitee launch\Git\cmd;D:\texlive\texlive\2020\bin\win32;D:\bin;D:\cmake\bin;D:\MinGW\bin;D:\JDE\bin;E:\UltraEdit;E:\Xshell\;C:\Program Files (x86)\Wolfram Research\WolframScript\;E:\nodejs\;C:\ProgramData\chocolatey\bin;E:\phpstudy_pro\Extensions\MySQL5.7.26\bin;E:\互传\EasyShare\x86\;E:\互传\EasyShare\x64\;E:\bingxing\fix 1\TDM-GCC\bin;E:\WinSCP\;E:\Xshell\Xftp7\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;E:\IntelliJ IDEA 2021.3.2\bin;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;D:\VS code\Microsoft VS Code\bin;D:\nodejs\node_global;D:\Fiddler
+384 [11404] INFO perfrun.launcher <> - set environment variable: COR_ENABLE_PROFILING = 1
+385 [11404] INFO perfrun.launcher <> - set environment variable: COR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+385 [11404] INFO perfrun.launcher <> - set environment variable: COMPLUS_ProfAPI_ProfilerCompatibilitySetting = EnableV2Profiler
+385 [11404] INFO perfrun.launcher <> - set environment variable: CORECLR_ENABLE_PROFILING = 1
+385 [11404] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+385 [11404] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER_PATH = E:\VTune\vtune\2022.2.0\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+385 [11404] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_PROFILER_MODE = mixed
+385 [11404] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+395 [11404] INFO perfrun.sdk <> - IProcessUtil: the given executable 'C:\Users\Administrator\Desktop\bingxing\homework2\row_main\Project1\Debug\Project1.exe' is valid.
+395 [11404] INFO perfrun.launcher <> - Launcher: command line to start before modification = C:\Users\Administrator\Desktop\bingxing\homework2\row_main\Project1\Debug\Project1.exe
+396 [11404] INFO perfrun.launcher <> - Launcher: command line to start after modification = C:\Users\Administrator\Desktop\bingxing\homework2\row_main\Project1\Debug\Project1.exe
+396 [11404] INFO perfrun.launcher <> - ProcessCreator object was created
+402 [11404] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+403 [264] INFO perfrun.itt <> - start itt controller for pid #15144
+404 [264] INFO perfrun.sdk <> - runCmd: E:\VTune\vtune\2022.2.0\bin64\sep.exe -start -experimental -uem timer=10 -em trigger=CPU_CLK_UNHALTED.REF_TSC factor=5 -ebc -out C:\Users\Administrator\Desktop\bingxing\homework2\vtune\test\r002hs3\data.0\sep108.20220313T143544.946259 -ec MEM_LOAD_RETIRED.L1_HIT:sa=1000003:precise=yes,MEM_LOAD_RETIRED.L1_MISS:sa=200003:precise=yes,MEM_LOAD_RETIRED.L2_HIT:sa=200003:precise=yes,MEM_LOAD_RETIRED.L2_MISS:sa=100021:precise=yes,MEM_LOAD_RETIRED.L3_HIT:sa=100021:precise=yes,MEM_LOAD_RETIRED.L3_MISS:sa=50021:precise=yes, -d 0 -uem factor=10
+410 [264] INFO perfrun.sdk <> - runCmd started PID 11500
+915 [11404] INFO perfrun.launcher <> - Launcher: all plugins were started
+915 [11404] INFO perfrun.launcher <> - DirectoryMonitor object was created
+916 [11404] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+916 [11404] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+916 [11404] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+916 [11404] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+923 [11404] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+2265 [11404] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+2271 [264] INFO perfrun.itt <> - detach itt controller
+2271 [264] INFO perfrun.itt <> - detach itt controller done
+2271 [264] INFO perfrun.sdk <> - runCmd: E:\VTune\vtune\2022.2.0\bin64\sep.exe -stop
+2276 [264] INFO perfrun.sdk <> - runCmd started PID 14324
+2824 [264] INFO perfrun.sepdk <> - Sampling successfully stopped.
+
+2824 [264] INFO perfrun.sepdk <> - Waiting for main SEP process (11500) to finish...
+2824 [264] INFO perfrun.sepdk <> - Main SEP process finished
+2824 [264] INFO perfrun.sdk <> - De-allocating TMU: C:\Users\Administrator\Desktop\bingxing\homework2\vtune\test\r002hs3\data.0\systemcollector-3332-DESKTOP-OPR46JC.sc
+2847 [264] INFO perfrun.system <> - closed the system trace file: C:\Users\Administrator\Desktop\bingxing\homework2\vtune\test\r002hs3\data.0\systemcollector-3332-DESKTOP-OPR46JC.sc
+2847 [11404] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+2847 [11404] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+2847 [11404] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+2848 [11404] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+2848 [11404] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: C:\BB\INNLphep2w6r\b\tmpraubik\vcs\perfrun1\launcher\src\command_handler.cpp:226
+2849 [11404] INFO perfrun.launcher <> - Application exit code: 0
+2849 [11404] INFO perfrun.launcher <> - Exit code: 0

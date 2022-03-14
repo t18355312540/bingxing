@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <connectionOption>localhost</connectionOption>
+ <contextValues type="bag"/>
+ <All_Configurations-All_Platforms>
+  <analysis_type_settings type="bag"/>
+ </All_Configurations-All_Platforms>
+</root>
